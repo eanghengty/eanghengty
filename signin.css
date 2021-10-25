@@ -12,31 +12,33 @@ body{
     
 }
 #container{
-    margin-top:70px;
-    margin-left: 420px;
-    padding: 20px;
-    width:450px;
-    height: 450px;
+    margin-top:20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 5px;
+    width: 50%;
     background: white;
     -webkit-box-shadow: 0 0 10px #e3e3e3;
-        box-shadow: 0 0 10px #e3e3e3;
+    box-shadow: 0 0 10px #e3e3e3;
     border-radius: 30px;
 }
 #img_logo{
-    width: 60px;
-    height: 50px;
-    margin-left: 195px;
+    width: 20%;
+    height: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
     margin-bottom: 30px;
 }
 #la_email{
     display: block;
-    margin-left: 10px;
+    margin-left: 10%;
 }
 #inp_email{
-    
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 450px;
+    width: 80%;
     height: 50px;
     border-radius: 15px;
     border: 1px solid white;
@@ -44,18 +46,20 @@ body{
     outline:none;
     padding-left:10px;
     font:inherit;
-    font-size: 13px;
+    font-size: small;
 }
 #la_password{
-    
+    font-size: large;
     display: block;
-    margin-left: 10px;
-    
+    margin-left: 10%;
+
 }
 #inp_password{
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 5px;
     margin-bottom: 10px;
-    width: 450px;
+    width: 80%;
     height: 50px;
     border-radius: 15px;
     border: 1px solid white;
@@ -66,10 +70,14 @@ body{
     font-size: 13px;
 }
 #a_forgot{
+    text-align: center;
+    display: block;
     color:#e3e3e3;
-    font-size:13px;
-    margin-left: 185px;
+    font-size: medium;
     
+}
+#a_forgot:hover{
+    color: black;
 }
 #hr_line{
     background:#e3e3e3;
@@ -79,31 +87,45 @@ body{
     
 }
 #btn_login{
+    margin-left: 10%;
     font:inherit;
+    font-size: medium;
+    cursor: pointer;
     background: #2f65ff;
     outline: none;
     border: none;
     border-radius: 17px;
-    width:150px;
+    width:40%;
     height: 60px;
     color: white;
     filter: drop-shadow(1px 1px 1px #e3e3e3);
 }
+
+#btn_login:hover{
+    background: #2f66ff9c;
+    color: black;
+}
+
 #btn_toregister{
     margin-top:25px;
+    cursor: pointer;
     font:inherit;
+    font-size: medium;
     background: #00cf3c;
     outline: none;
     border: none;
     border-radius: 17px;
-    width:150px;
+    width:40%;
     height: 60px;
     color: white;
-    margin-left:144px;
     filter: drop-shadow(1px 1px 1px #e3e3e3);
 }
-#img_translate{ 
-    
+
+#btn_toregister:hover{
+    background: #00cf3b8a;
+    color: black;
+}
+#img_translate{
     width: 30px;
     height: 30px;
     display: block;
@@ -113,13 +135,13 @@ body{
     
 }
 #btn_language{
-    width: 40px;
+    width: 10%;
     display: block;
     background: none;
     outline: none;
     border: none;
     font: inherit;
-    font-size: 15px;
+    font-size: medium;
     color: #c5c5c5;
     margin-left:90%;
 }
