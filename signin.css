@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+body{
+    font-family: 'Preahvihear', sans-serif;
+    background:url(background.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#la_account{
+    font: inherit;
+}
+#container{
+    margin-top:70px;
+    margin-left: 420px;
+    padding: 20px;
+    width:450px;
+    height: 450px;
+    background: white;
+    -webkit-box-shadow: 0 0 10px #e3e3e3;
+        box-shadow: 0 0 10px #e3e3e3;
+    border-radius: 30px;
+}
+#img_logo{
+    width: 60px;
+    height: 50px;
+    margin-left: 195px;
+    margin-bottom: 30px;
+}
+#la_email{
+    display: block;
+    margin-left: 10px;
+}
+#inp_email{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline:none;
+    padding-left:10px;
+    font:inherit;
+    font-size: 13px;
+}
+#la_password{
+    
+    display: block;
+    margin-left: 10px;
+    
+}
+#inp_password{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 450px;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline:none;
+    padding-left:10px;
+    font:inherit;
+    font-size: 13px;
+}
+#a_forgot{
+    color:#e3e3e3;
+    font-size:13px;
+    margin-left: 185px;
+    
+}
+#hr_line{
+    background:#e3e3e3;
+    border: none;
+    height: 20px;
+    width: 1px;
+    
+}
+#btn_login{
+    font:inherit;
+    background: #2f65ff;
+    outline: none;
+    border: none;
+    border-radius: 17px;
+    width:150px;
+    height: 60px;
+    color: white;
+    filter: drop-shadow(1px 1px 1px #e3e3e3);
+}
+#btn_toregister{
+    margin-top:25px;
+    font:inherit;
+    background: #00cf3c;
+    outline: none;
+    border: none;
+    border-radius: 17px;
+    width:150px;
+    height: 60px;
+    color: white;
+    margin-left:144px;
+    filter: drop-shadow(1px 1px 1px #e3e3e3);
+}
+#img_translate{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: -45px;
+    margin-left:45px;
+    margin-left:93.5%;
+    
+}
+#btn_language{
+    width: 40px;
+    display: block;
+    background: none;
+    outline: none;
+    border: none;
+    font: inherit;
+    font-size: 15px;
+    color: #c5c5c5;
+    margin-left:90%;
+}
