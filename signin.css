@@ -101,7 +101,8 @@ body{
     margin-left:144px;
     filter: drop-shadow(1px 1px 1px #e3e3e3);
 }
-#img_translate{
+#img_translate{ 
+    
     width: 30px;
     height: 30px;
     display: block;
