@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
-body{
+
+    body{
     font-family: 'Preahvihear', sans-serif;
     background:url(background.png);
     -moz-background-size: cover;
@@ -7,27 +8,29 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
 #la_account{
     font: inherit;
     
 }
 #container{
-    margin-top:20px;
-    margin-left: 25%;
+    margin-top:5%;
+    margin-left: 31%;
     margin-right: 25%;
     padding: 5px;
-    width: 50%;
+    width: 40%;
     background: white;
     -webkit-box-shadow: 0 0 10px #e3e3e3;
     box-shadow: 0 0 10px #e3e3e3;
     border-radius: 30px;
 }
 #img_logo{
-    width: 20%;
-    height: 10%;
-    margin-left: 40%;
-    margin-right: 40%;
-    margin-bottom: 30px;
+    width: 10%;
+    height: 8%;
+    margin-left: 45%;
+
+    margin-bottom: 3%;
+    margin-top: 5%;
 }
 #la_email{
     display: block;
@@ -89,7 +92,7 @@ body{
 #btn_login{
     margin-left: 10%;
     font:inherit;
-    font-size: medium;
+    font-size: 13px;
     cursor: pointer;
     background: #2f65ff;
     outline: none;
@@ -102,15 +105,15 @@ body{
 }
 
 #btn_login:hover{
-    background: #2f66ff9c;
-    color: black;
+    background: white;
+    color: #2f65ff;
 }
 
 #btn_toregister{
     margin-top:25px;
     cursor: pointer;
     font:inherit;
-    font-size: medium;
+    font-size: 13px;
     background: #00cf3c;
     outline: none;
     border: none;
@@ -122,26 +125,18 @@ body{
 }
 
 #btn_toregister:hover{
-    background: #00cf3b8a;
-    color: black;
+    background: white;
+    color: #00cf3c;
 }
-#img_translate{
-    width: 30px;
-    height: 30px;
-    display: block;
-    margin-top: -45px;
-    margin-left:45px;
-    margin-left:93.5%;
-    
-}
+
 #btn_language{
     width: 10%;
-    display: block;
+    display: inline;
     background: none;
     outline: none;
     border: none;
     font: inherit;
     font-size: medium;
     color: #c5c5c5;
-    margin-left:90%;
+    margin-left:87%;
 }
