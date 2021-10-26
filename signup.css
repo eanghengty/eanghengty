@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+
+    
+
+body {
+    font-family: 'Preahvihear', sans-serif;
+    background: url(background.png);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+    
+
+#container {
+    
+    margin-top: 1%;
+    margin-left: 31%;
+    margin-right: 25%;
+    padding: 1%;
+    min-width: 40%;
+    background: white;
+    -webkit-box-shadow: 0 0 10px #e3e3e3;
+    box-shadow: 0 0 10px #e3e3e3;
+    border-radius: 30px;
+}
+
+#la_createaccount{
+    margin-left: 10%;
+    font-size: 30px;
+    
+}
+#hr_createaccount{
+    background: #e3e3e3;
+    border: none;
+    height: 0.3%;
+    width: 75%;
+    margin-left: 10%;
+}
+
+#inp_firstname {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 44%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline: none;
+    padding-left: 10px;
+    font: inherit;
+    font-size: small;
+
+}
+
+#inp_lastname {
+
+    margin-left: -10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 35%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline: none;
+    padding-left: 10px;
+    font: inherit;
+    font-size: small;
+
+}
+
+#inp_email {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline: none;
+    padding-left: 10px;
+    font: inherit;
+    font-size: small;
+}
+
+#inp_password {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline: none;
+    padding-left: 10px;
+    font: inherit;
+    font-size: 13px;
+}
+
+#a_forgot {
+    text-align: center;
+    display: block;
+    color: #e3e3e3;
+    font-size: medium;
+
+}
+
+#a_forgot:hover {
+    color: black;
+}
+
+
+
+
+#btn_login:hover {
+    background: white;
+    color: #2f65ff;
+}
+
+#btn_toregister {
+    margin-top: 2%;
+    cursor: pointer;
+    font: inherit;
+    font-size: 13px;
+    background: #00cf3c;
+    outline: none;
+    border: none;
+    border-radius: 17px;
+    width: 40%;
+    height: 56px;
+    color: white;
+    filter: drop-shadow(1px 1px 1px #e3e3e3);
+    margin-left: 30%;
+}
+
+#btn_toregister:hover {
+    background: white;
+    color: #00cf3c;
+}
+
+#btn_language {
+    width: 10%;
+    display: inline;
+    background: none;
+    outline: none;
+    border: none;
+    font: inherit;
+    font-size: medium;
+    color: #c5c5c5;
+    margin-left: 87%;
+}
+
+#la_date {
+    display: block;
+    margin-left: 11%;
+    font-size: 15px;
+}
+#inp_day{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline: none;
+    padding-left: 10px;
+    font: inherit;
+    font-size: 13px;
+}
+#inp_month{
+    margin-left: -5%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline: none;
+    padding-left: 10px;
+    font: inherit;
+    font-size: 13px;
+}
+#inp_year{
+    margin-left: -5%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    outline: none;
+    padding-left: 10px;
+    font: inherit;
+    font-size: 13px;
+}
+#la_gender{
+    display: block;
+    margin-left: 11%;
+    font-size: 15px;
+    
+}
+
+#div_gender{
+   
+    width: 50%;
+    height: 40px;
+    margin-left:25%;
+    text-align: center;
+    padding-top:5%;
+    
+    
+    border-radius: 17px;
+    color:#bebebe;
+    background: white;
+    border: 1px solid #bebebe;
+    filter: drop-shadow(2px 2px 2px #e3e3e3);
+    font-size: 13px;
+    
+}
