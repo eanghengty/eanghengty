@@ -3,7 +3,6 @@
 
     
 
-
 body {
     font-family: 'Preahvihear', sans-serif;
     background: url(background.png);
@@ -17,7 +16,6 @@ body {
     
 
 #container {
-    
     margin-top: 1%;
     margin-left: 31%;
     margin-right: 25%;
@@ -234,4 +232,18 @@ body {
     filter: drop-shadow(2px 2px 2px #e3e3e3);
     font-size: 13px;
     
+}
+/* Screen Normal Phone */
+@media only screen and(max-width:320px){
+    #container {
+        margin-top: 1%;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 1%;
+        width: 80%;
+        background: white;
+        -webkit-box-shadow: 0 0 10px #e3e3e3;
+        box-shadow: 0 0 10px #e3e3e3;
+        border-radius: 30px;
+    }
 }
