@@ -140,3 +140,32 @@
     color: #c5c5c5;
     margin-left:87%;
 }
+
+/* Screen Normal Phone */
+@media only screen and (max-width: 480px) and (max-width:320px){
+    #container {
+      margin-top: 1%;
+      margin-left: 10%;
+      margin-right: 10%;
+      padding: 1%;
+      width: 80%;
+      background: white;
+      -webkit-box-shadow: 0 0 10px #e3e3e3;
+      box-shadow: 0 0 10px #e3e3e3;
+      border-radius: 30px;
+      }
+  }
+  /*  Screen tablets or ipad */
+  @media only screen and (max-width:481px) and (max-width:768px){
+      #container {
+      margin-top: 1%;
+      margin-left: 15%;
+      margin-right: 15%;
+      padding: 1%;
+      width: 70%;
+      background: white;
+      -webkit-box-shadow: 0 0 10px #e3e3e3;
+      box-shadow: 0 0 10px #e3e3e3;
+      border-radius: 30px;
+      }
+  }
