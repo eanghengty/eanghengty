@@ -5,7 +5,9 @@
 - 📫 How to reach me ...
 - Joi Knea
 - Srul Nas
-- sell toy adults contacts via +855964994222
+- Joi
+- Joi 
+- O
 
 <!---
 eanghengty/eanghengty is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
